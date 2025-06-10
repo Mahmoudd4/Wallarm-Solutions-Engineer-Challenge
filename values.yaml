@@ -1,0 +1,10 @@
+controller:
+  service:
+    type: NodePort
+  wallarm:
+    enabled: true
+    existingSecret:
+      enabled: true
+      secretKey: token
+      secretName: wallarm-api-token
+
